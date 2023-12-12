@@ -1,0 +1,41 @@
+### Documentação do Aplicativo - Library
+
+#### **1. Introdução**
+   - **Descrição do Aplicativo:** Este aplicativo gerencia os livros de usurários cadastrados nele, ele tem o intuito de ser utilizado por pessoas que
+   possuem vários livros e precisam de um um sistema para gerênciar-los.
+   - **Requisitos:** Python 3.x, MariaDB, bibliotecas necessárias (mysql-connector-python, os, time).
+
+#### **2. Instalação e Configuração**
+   - **Requisitos de Instalação:** Python 3.x, MariaDB.
+   - **Instruções de Instalação:**
+     1. Clone o repositório.
+     2. Instale as dependências (`pip install -r requirements.txt`).
+     3. Configure o banco de dados MariaDB.
+
+#### **3. Uso do Aplicativo**
+   - **Iniciando o Aplicativo:** Execute `python3 app.py` no terminal.
+   - **Menu Principal:**
+     - **1- Cadastro de Usuário:** Permite cadastrar um novo usuário.
+     - **2- Login:** Permite fazer login no sistema.
+     - **3- Cadastrar Livro:** Permite cadastrar um novo livro.
+     - **4- Listar Livros:** Lista todos os livros cadastrados.
+     - **5- Atualizar Livro:** Permite atualizar as informações do livro.
+     - **6- Apagar Livro:** Permite apagar um livro.
+     - **7- Sair:** Encerra o programa.
+
+#### **4. Estrutura do Código**
+   - **Módulos e Funções Principais:** O código está organizado em diferentes módulos (arquivos) para melhor modularização.
+   - **Conexão com o Banco de Dados:** Utiliza `mysql-connector-python` para a conexão com o banco de dados MariaDB.
+   - **Tratamento de Exceções:** Inclui tratamento de exceções para garantir robustez.
+
+#### **5. Exemplos de Uso**
+   - **Exemplo 1:** Cadastrando um novo usuário.
+   - **Exemplo 2:** Listando livros cadastrados.
+   - **Exemplo 3:** Removendo livros.
+
+#### **6. Considerações Finais**
+   - **Notas Adicionais:** O aplicativo foi desenvolvido como parte do projeto da disciplina de Laboratório de BD e Laboratório de Programação II
+   - **Contato:** Para sugestões ou problemas, entre em contato com [juniod04@gmail.com].
+
+#### **7. Licença**
+   - [1.0.0]
